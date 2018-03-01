@@ -831,12 +831,14 @@ height: auto;
 .box4 img{
   width: 20%;
   height: 20%;
+}
+.box4{
   visibility: collapse;
 }
 .box8 img{
   width: 20%;
   height: 20%;
-  visibility: collapse;
+  /* visibility: collapse; */
 }
 
 .box8{
