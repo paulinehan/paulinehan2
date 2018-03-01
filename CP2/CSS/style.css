@@ -218,7 +218,7 @@ h3{
 
 h4{
   font-family: "Megrim";
-  font-size: 2em;
+  font-size: 2.5em;
   text-shadow: 2px 2px lightgray;
 }
 
@@ -235,7 +235,7 @@ h4{
   grid-column: 1/2;
   grid-row: 1/12;
   border-bottom:none;
-  background-color: lightgray;
+  /* background-color: lightgray; */
   /* opacity: 0.5; */
   padding: 0px;
   margin: 0px;
@@ -309,33 +309,44 @@ border-bottom: none;
   border-bottom: 5px solid black;
 }
 
-.box2{
+.flex-container{
+  grid-column: 2/4;
+  grid-row: 11;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+
+
+/* .box2{
   grid-area: box2;
   grid-column:3/4;
   grid-row: 11;
-  /* border-top: 4px solid red; */
-}
+  border-top: 4px solid red;
+} */
 .box2 img{
   /* padding-top: 30px; */
-  max-width: 35%;
+  max-width: 40%;
   height: auto;
 }
 .box3 img{
   padding: 20px;
   padding-top: 30px;
-  max-width: 75%;
+  max-width: 40%;
   height: auto;
   padding-bottom:40px;
   /* border-radius:100%; */
   /* border: solid 5px black; */
 }
 
-.box3{
+/* .box3{
   grid-area: box3;
 grid-column:2/3;
 grid-row:11;
-/* border-top: 4px solid red; */
-}
+border-top: 4px solid red;
+} */
 /* end footer row */
 
 /* begin third row */
