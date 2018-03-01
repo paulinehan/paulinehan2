@@ -830,12 +830,12 @@ height: auto;
 } */
 .box4 img{
   width: 20%;
-  height: auto;
+  height: 20%;
   visibility: collapse;
 }
 .box8 img{
   width: 20%;
-  height: auto;
+  height: 20%;
   visibility: collapse;
 }
 
@@ -843,7 +843,7 @@ height: auto;
   visibility: collapse;
 }
 .box5 img{
-  width:800%;
+  width:80%;
   height: auto;
 }
 .box6 img{
