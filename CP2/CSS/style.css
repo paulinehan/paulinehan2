@@ -235,7 +235,8 @@ h4{
   grid-column: 1/2;
   grid-row: 1/12;
   border-bottom:none;
-  background-color: lightpink;
+    border-right: 4px solid black;
+/*   background-color: lightpink; */
   /* opacity: 0.5; */
   padding: 0px;
   margin: 0px;
