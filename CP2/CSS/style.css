@@ -230,6 +230,17 @@ h4{
   grid-gap: 20px;
   }
 
+.box17{
+  grid-area: box17;
+  grid-column: 1/2;
+  grid-row: 1/12;
+  border-bottom:none;
+  background-color: lightpink;
+  /* opacity: 0.5; */
+  padding: 0px;
+  margin: 0px;
+}
+
 .body1{
   grid-area:body1;
   grid-column: 2/5;
@@ -410,6 +421,7 @@ position: absolute;
   /* border-top: 4px solid red; */
 }
 
+
 .box7 h1{
  font-family: "megrim";
  /* letter-spacing: 0.3em; */
@@ -420,6 +432,7 @@ position: absolute;
  width: 100%;
  text-shadow: none;
  text-align: left;
+
 }
 
 .box7 p{
